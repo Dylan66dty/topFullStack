@@ -19,7 +19,18 @@ nest start -w admin(项目名)
 // 生成数据库
 nest g lib db
 
+// 创建控制器
+nest g co -p 子目录名 控制器名字
+
+// 创建module
+nest g mo -p 子目录名 module名字
+
 // 安装数据库模块
 yarn add nestjs-typegoose @typegoose/typegoose mongoose @types/mongoose
+
 # client
-Vue Element-ui
+// 转换成typescript
+vue add typescript
+
+// 安装axios @types/axios 类型定义 提示代码的
+yarn add axios @types/axios
